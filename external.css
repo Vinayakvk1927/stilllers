@@ -1,0 +1,72 @@
+li {
+    font-weight: bold;
+}
+
+a {
+    font-family: display;
+}
+
+#container2 {
+    background-color: rgba(8, 8, 8, 0.635);
+}
+
+.display-6 {
+    font-family: serif;
+    color: white;
+}
+
+.display-4 {
+    font-family: serif;
+    color: white;
+}
+
+span {
+    font-family: cursive;
+}
+
+#row2 {
+    background-image: linear-gradient(#42275a, #734b6d);
+}
+
+.bg-image {
+    position: relative;
+    height: 100vh;
+    background-color: #311432c7;
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("backg2.jpg");
+    /* Replace 'your-image-url.jpg' with the URL of your image */
+    background-size: cover;
+    background-position: center;
+    opacity: 70%;
+    background-color: black;
+    mix-blend-mode: overlay;
+    object-fit: contain;
+    height: 100%;
+    /* Adjust the opacity of the image */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+
+/* For demo purposes */
+
+.overlay h1 {
+    font-size: 3rem;
+    opacity: 1;
+    /* Ensure text opacity remains at 100% */
+}
